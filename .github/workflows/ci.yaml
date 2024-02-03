@@ -14,7 +14,7 @@ jobs:
           version: 8
           run_install: |
             - args: [--frozen-lockfile]
-            - cwd: foo/package.json
+              cwd: foo
 
       - name: pnpm start
         run: pnpm start
