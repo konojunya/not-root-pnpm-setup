@@ -12,6 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: pwd
+        run: echo $PWD
+
       - uses: pnpm/action-setup@v2
         with:
           version: 8
